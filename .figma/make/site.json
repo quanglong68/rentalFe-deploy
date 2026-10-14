@@ -1,7 +1,12 @@
 {
-  "description": "A comprehensive platform for room rental management, enabling users to post listings, schedule viewings, manage contracts, and handle maintenance requests efficiently.",
+  "title": "Rental App - Nhà Mình",
+  "description": "Nền tảng quản lý và thuê phòng trọ tiện ích, minh bạch chi phí.",
+  "language": "vi",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
