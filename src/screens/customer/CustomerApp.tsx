@@ -93,11 +93,9 @@ export default function CustomerLayout() {
         </motion.header>
       )}
 
-      <AnimatePresence mode="wait">
-        <motion.main key={loc.pathname} initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.38, ease: [0.22, 1, 0.36, 1] }}>
-          <Outlet />
-        </motion.main>
-      </AnimatePresence>
+      <main>
+        <Outlet />
+      </main>
 
       {!authPage && isCustomer && (
         <nav className="cx-bottom">
